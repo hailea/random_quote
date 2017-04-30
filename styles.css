@@ -1,10 +1,14 @@
+body{
+  background-color:rgba(0,0,0,0.6);padding:5% 0.1% 0.5% 0.1%;
+}
 .mainContainer{
   background-color: rgba(255,0,0,0.5);
   background-image: -webkit-radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
  background-image: -moz-radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
  background-image: radial-gradient(ellipse farthest-corner at 505px 405px , #EF5 0%, rgba(255, 255, 0, 0) 70%, #F00 95%);
   font-family: 'Oswald', sans-serif;
-  font-size:1.2em;padding:0.5% 0.1% 0.5% 0.1%; margin:0.5% 0.1% 0.5% 0.1%; width:85%; height:100%; border: 2px dashed #456700;
+  font-size:1.2em;padding:0.5% 0.1% 0.5% 0.1%; margin:0.5% 0.1% 0.5% 10%;
+  width:75%; height:80%; border: 2px dashed #456700;
 }
 button{
     position: relative;
@@ -17,7 +21,7 @@ button{
   background-color: RGB(125,180,180);
   margin:0.5% 1% 0.5% 1%;
   padding:0.5% 1% 0.5% 1%;
-  
+
 }
 .quoteMsg{
   font-family: 'Jim Nightshade', cursive;font-size:1.5em;padding: 2% 1% 2% 2%;
